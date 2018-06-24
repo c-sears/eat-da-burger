@@ -1,0 +1,11 @@
+<div class="list-group col-xs-12">
+{{#each burgers}}
+    {{#if devoured}}
+    <div class="list-group-item" id="{{id}}">
+        <small>{{id}}</small>
+        <p>{{burger_name}}</p>
+        
+    </div>
+    {{/if}}
+{{/each}}
+</div>

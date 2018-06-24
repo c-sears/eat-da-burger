@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(201, 38, 38);
+}
+
+.burger {
+    display: block;
+}
+
+.left{
+    float: left;
+    
+}

@@ -1,0 +1,13 @@
+<div class="list-group col-xs-12">
+{{#each burgers}}
+    {{#unless devoured}}
+    <div class="list-group-item burger">
+        <small>{{id}}</small>
+        <p>{{burger_name}}</p>
+
+        <div class="btn btn-primary" id="eat_burger" data-id='{{id}}'>eat burger</div>
+    </div>
+    {{/unless}}
+{{/each}}
+</div>
+
