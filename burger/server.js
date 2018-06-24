@@ -3,6 +3,8 @@ const bodyParser = require("body-parser")
 
 const PORT = process.env.PORT || 8080
 
+console.log(process.env.PORT)
+
 const app = express()
 
 // Serve static content for the app from the "public" directory in the application directory.
@@ -31,6 +33,4 @@ const routes = require("./controllers/burgers_controller")
 
 app.use(routes)
 
-app.listen(PORT, () =>{
-  console.log(`Now listening on ${PORT}`)
-})
+app.listen(PORT)
